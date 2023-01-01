@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.chatapp.ui.fragments.HomeFragment"
+        android:label="Telegram"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/newGroupFragment"
+        android:name="com.example.chatapp.ui.fragments.NewGroupFragment"
+        android:label="fragment_new_group"
+        tools:layout="@layout/fragment_new_group" />
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.example.chatapp.ui.fragments.ContactsFragment"
+        android:label="fragment_contacts"
+        tools:layout="@layout/fragment_contacts" />
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.example.chatapp.ui.fragments.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/pagerDataFragment"
+        android:name="com.example.chatapp.ui.fragments.AllContactsFragment"
+        android:label="fragment_pager_data"
+        tools:layout="@layout/fragment_all_contacts" />
+    <fragment
+        android:id="@+id/privateMessagesFragment"
+        android:name="com.example.chatapp.ui.fragments.PrivateMessagesFragment"
+        android:label="fragment_private_messages"
+        tools:layout="@layout/fragment_private_messages" />
+    <fragment
+        android:id="@+id/supergroupsFragment"
+        android:name="com.example.chatapp.ui.fragments.SupergroupsFragment"
+        android:label="fragment_supergroups"
+        tools:layout="@layout/fragment_supergroups" />
+    <fragment
+        android:id="@+id/channelsFragment"
+        android:name="com.example.chatapp.ui.fragments.ChannelsFragment"
+        android:label="fragment_channels"
+        tools:layout="@layout/fragment_channels" />
+    <fragment
+        android:id="@+id/doNotReadFragment"
+        android:name="com.example.chatapp.ui.fragments.NotReadFragment"
+        android:label="fragment_do_not_read"
+        tools:layout="@layout/fragment_not_read" />
+    <fragment
+        android:id="@+id/savedMessagesFragment"
+        android:name="com.example.chatapp.ui.fragments.SavedMessagesFragment"
+        android:label="fragment_saved_messages"
+        tools:layout="@layout/fragment_saved_messages" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.chatapp.ui.fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/inviteFriendsFragment"
+        android:name="com.example.chatapp.ui.fragments.InviteFriendsFragment"
+        android:label="fragment_invite_friends"
+        tools:layout="@layout/fragment_invite_friends" />
+    <fragment
+        android:id="@+id/telegramFunctionFragment"
+        android:name="com.example.chatapp.ui.fragments.TelegramFunctionFragment"
+        android:label="fragment_telegram_function"
+        tools:layout="@layout/fragment_telegram_function" />
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.example.chatapp.ui.fragments.UserProfileFragment"
+        android:label="fragment_user_profile"
+        tools:layout="@layout/fragment_user_profile" />
+    <fragment
+        android:id="@+id/userProfileImageFragment"
+        android:name="com.example.chatapp.ui.fragments.UserProfileImageFragment"
+        android:label="fragment_user_profile_image"
+        tools:layout="@layout/fragment_user_profile_image" />
+    <fragment
+        android:id="@+id/userImageFragment"
+        android:name="com.example.chatapp.ui.fragments.UserImageFragment"
+        android:label="fragment_user_image"
+        tools:layout="@layout/fragment_user_image" />
+    <fragment
+        android:id="@+id/machineLearningBotFragment"
+        android:name="com.example.chatapp.MachineLearningBotFragment"
+        android:label="fragment_machine_learning_bot"
+        tools:layout="@layout/fragment_machine_learning_bot" />
+
+
+</navigation>
